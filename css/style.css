@@ -1,0 +1,70 @@
+
+*{
+    margin: 70px;
+}
+
+body {
+    background-color: bisque;
+}
+
+
+#globo  {
+    box-sizing: border-box;
+    border: 2px black solid;
+    margin: 0;
+    padding: 5em 5rem;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 200px;
+   
+}
+#cor {
+    margin: 3em;
+  
+
+}
+.fila{
+    display: flex;
+    
+}
+
+.col{
+    flex: 1;
+    justify-content: space-around;
+}
+
+button {
+    padding: 1.5em;
+    margin: 4em;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.gray{
+    background-color: rgba(128, 128, 128, 0.39);
+}
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+}
+.blue{
+    background-color: blue;
+}
+
+.brown{
+    background-color: brown;
+}
+
+.black {
+    background-color: black;
+    color: white;
+}
+
+.yellow {
+    background-color: yellow;
+    color: black;
+}
